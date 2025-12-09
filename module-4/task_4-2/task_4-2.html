@@ -10,8 +10,32 @@
       <span id="txtOut" style="white-space: nowrap"></span>
     </div>
     <ol>
-      <li>[Write the question here, and copy this for more questions]</li>
-      <p>[Write your answer here, and copy this for more answers]</p>
+      <li>What is an array? A short and concise answer is expected here!</li>
+      <p>An array is kind of a table that keeps information in itself</p>
+      <li>What does it mean to "hardcode" when we talk about programming? (In English, it's called "hard
+coding", "hard-coding", or "hardcoding").</li>
+      <p>Hard code is a way to say manual, so it pretty much means typing everything in manually (directly typing in the values)</p>
+      <li>Explain in plain text what happens in task 3, and how we can traverse (iterate) the array when we
+(humans) don't "know" how long the array is.</li>
+      <p>In task 3 we use split to split the text (or more like every word) and print it on a new line. We can know the size using .length :p</p>
+      <li>Why is it beneficial to store instances of a class in arrays, as in task 4?</li>
+      <p>Because it stores the data and allows us to reuse it later like in task 5</p>
+      <li>Try your best to explain the EWeekDays object from task 7. How do we use the "value" attribute, for
+example? In what way do "WeekDay", "Workdays", and "Weekends" differ from each other? If we
+wanted to create a new element "WorkoutDays", which would contain "Monday", "Wednesday", and
+"Thursday", how would it ideally look? (I will choose the best answer to this task and reward it with
+pizza in the cafeteria right after New Year. Remember to mark in your submission if you want to
+participate in the competition!)</li>
+      <p>Well here I go! To start it off EWeekDays is a contant objects that holds values (also keys) like value and name, with each day having its own unique value. Using the unique numbers we can specify easier which exact one we want to print (like we did and separating them by a plus). Then we can also additionally specify that those exact codes are arbeidsdager or helger. If you will want to create a new type that will hold specific days like "arbeidsdager" or "helger" you can just use the same type of writing ehre, being:  Training days: {value: 0x01 (this here is Monday) + 0x04 (this is wednesday) + 0x08 (this is thursday) , name: "Training days" (and this would be a definitive name for our category or type!)} Then we have the loop that repeats while i4 is less than the number of keys. Then the const day = EWeekDays [key] stores it and read which value it has. And at the end we just print it out while specifying value and name! Yay! :D PLEASE PIZZA THIS IS A SUBMISSION YAY </p>
+      <li>In task 8, we will use a "callback" routine when sorting. Explain how such a "callback" routine works.</li>
+      <p>.sort is kind of the function for sorting but not really, since it still needs back up (which we show as a function) and tell it where its supposed to be from a - b (1st to second number) or b - a (second to first)</p>
+      <li>What happens in the sorting routines you have created? Try to explain how the array can figure out
+if an element should come before or after another. The best way to answer this is to actually print
+both parameters each time the sorting routine runs</li>
+      <p>Thats the thing I exlained with functions above</p>
+      <li>In task 10, we will create an array with rows and columns. Explain what the first element of the array
+contains.</li>
+      <p>Its an array that contains 9 strings total for each column it creates</p>
     </ol>
     <script type="module" src="./task_4-2.mjs" defer></script>
   </body>
